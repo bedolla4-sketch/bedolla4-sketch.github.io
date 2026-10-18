@@ -7,20 +7,20 @@
 }
 
 body { 
-  background-color: #f4F6f4; /* Very soft pale sage tint*/
+  background-color: #f4F6f4;
   color: #333;
   line-height: 1.6;
 }
 
 /* --- Responsive Header & Navigation ---*/
 header { 
-  background-color: #2d3e2d; /* Deep forest sage green background */
+  background-color: #2d3e2d;
   color: #fff;
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-bottom: 3px solid #d2b48c; /* Light brown decorative boundary */
+  border-bottom: 3px solid #d2b48c;
 }
 
 .header-container {
@@ -46,7 +46,7 @@ nav a {
 }
   
 nav a:hover { 
-  color: #d2b48c; /* Hightlight links with ligth brown on hover */
+  color: #d2b48c;
 }
 
 /* --- Hero Banner layout ---*/
@@ -73,7 +73,7 @@ nav a:hover {
 .container h2 {
   color: #2d3e2d;
   margin-bottom: 0.5rem;
-  border-left: 5px solid #87a987; /* Sage green accent block next to page titles */
+  border-left: 5px solid #87a987;
   padding-left: 10px;
 }
 
@@ -89,14 +89,14 @@ nav a:hover {
   background: #fff;
   broder-radius: 8px;
   padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(45, 62, 45, 0.08); /* Soft organic shadow */
-  border-top: 4px solid #87a987; /* Sage green structural card topper */
+  box-shadow: 0 4px 10px rgba(45, 62, 45, 0.08);
+  border-top: 4px solid #87a987;
   transition: transform 0.2s, box shadow 0.2s;
 }
 
 .card:hover { 
   transform: translateY(-3px);
-  box-shadow: 0 6 px 15px rgba(210, 180, 140, 0.25); /* Subtle light brown glow on hover */
+  box-shadow: 0 6 px 15px rgba(210, 180, 140, 0.25);
 }
 
 .card h3 { 
@@ -106,13 +106,13 @@ nav a:hover {
 
 /* Specific styling modifier for alerts or unique blocks (like safety cards) */
 .card-alt { 
-  border-top-color: #d2b48c; /*Light brown alternative banner accent */
-  background-color: #faf7f2; ?8 Warm tan/light brown soft wash background */
+  border-top-color: #d2b48c;
+  background-color: #faf7f2;
 }
 
 /* --- Global Footer ---*/
 footer { 
-  background-color: #2d3e2d; /* Matching deep forest sage background */
+  background-color: #2d3e2d;
   color: #dcdfdc;
   text-align: center;
   padding: 2rem 1rem;
